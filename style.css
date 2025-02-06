@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile-card {
+  width: 40%;
+  height: 70vh;
+  margin: 4rem auto;
+  display: flex;
+  gap: 1.5rem;
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 30px;
+  box-shadow: 2px 2px;
+  padding: 30px;
+}
+
+.profile-card .left-sect {
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.profile-card .left-sect h2 {
+  margin-top: 10px;
+  font-size: 1.6rem;
+}
+
+.profile-card .left-sect hr {
+  width: 90%;
+  margin: 0.8rem 0;
+  color: gray;
+}
+
+.profile-card .left-sect h4 {
+  padding-bottom: 10px;
+}
+
+.profile-card .left-sect .profile-info small {
+  font-size: 12px;
+  color: gray;
+  font-weight: 900;
+}
+
+.profile-card .left-sect .profile-info .contact {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-card .left-sect .profile-info .contact p {
+  color: gray;
+  font-size: 10px;
+}
+
+.profile-card .left-sect .profile-info .contact h6 {
+  font-size: 13px;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+
+.profile-card .social-links {
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 25%;
+}
+
+.profile-card .social-links a {
+  text-decoration: none;
+  padding: 0 1.5rem;
+  color: orangered;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.profile-card .social-links a:hover {
+  color: darkslategrey;
+}
+
+.profile-card .social-links a i {
+  margin-top: 1rem;
+}
+
+.profile-card .left-sect button {
+  position: relative;
+  bottom: 3rem;
+  margin: 0 3rem;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+.profile-card .left-sect button:hover {
+  background-color: darkolivegreen;
+  color: burlywood;
+}
+
+.profile-card .right-sect {
+  width: 60%;
+  background-color: orangered;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.profile-card .right-sect .image {
+  width: 40%;
+  height: 30%;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.profile-card .right-sect .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-card .right-sect .label {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.profile-card .right-sect .content {
+  height: 64%;
+  margin-top: 1rem;
+  background-color: whitesmoke;
+  border-radius: 30px;
+  padding-left: 20px;
+}
+
+.profile-card .right-sect .content h5 {
+  padding-top: 4px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.profile-card .right-sect .content p {
+  padding-left: 15px;
+  font-size: 12px;
+  color: gray;
+}
+
+.profile-card .right-sect .content span {
+  font-size: 12px;
+}
+.profile-card .right-sect .skill-tag {
+  margin-left: 1rem;
+  font-size: 13px;
+  color: gray;
+}
+
+.profile-card .right-sect .UTC-time {
+  margin-top: -2rem;
+  font-size: 13px;
+  text-align: center;
+  color: orangered;
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .profile-card {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    padding: 15px;
+    display: inline-block;
+  }
+
+  .profile-card .left-sect {
+    width: 100%;
+  }
+
+  .profile-card .left-sect h2 {
+    margin-top: 4rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .profile-card .left-sect hr {
+    width: 100%;
+  }
+
+  .profile-card .left-sect h4 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .profile-card .left-sect .profile-info small {
+    margin: 5px auto;
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .profile-card .left-sect .profile-info .contact {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .profile-card .social-links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profile-card .social-links a {
+    font-size: 25px;
+  }
+
+  .profile-card .left-sect button {
+    position: relative;
+    top: 0.2rem;
+    left: 28%;
+  }
+
+  .profile-card .right-sect {
+    width: 100%;
+  }
+
+  .profile-card .right-sect .image {
+    width: 15%;
+    height: 20%;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .profile-card .right-sect .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .profile-card .right-sect .content {
+    padding-top: 1.5rem;
+  }
+
+  .profile-card .right-sect .content h5 {
+    font-size: 20px;
+  }
+
+  .profile-card .right-sect .content p {
+    font-size: 15px;
+  }
+
+  .profile-card .right-sect .content span {
+    font-size: 15px;
+  }
+
+  .profile-card .right-sect .UTC-time {
+    padding-top: 20px;
+}
+}

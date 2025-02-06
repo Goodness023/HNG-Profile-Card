@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="profile-card">
+        <div class="left-sect">
+            <div class="profile-info">
+                <h2 data-testid="fullName">Goodness Umachi</h2>
+                <hr>
+                <h4 data-testid="jobTitle">Frontend Developer</h4>
+                <small data-testid="shortBio">A passionate frontend developer dedicated to creating engaging and
+                    accessible
+                    web
+                    experiences. Skilled in HTML, CSS, JavaScript, and modern frameworks</small>
+                <div class="contact">
+                    <div class="">
+                        <h6 data-testid="Location">Location</h6>
+                        <p data-testid="currentLocation">📍 Asaba, Nigeria</p>
+                    </div>
+                    <div class="line" style="border-left: 1px solid #000; height: 50px; margin: 0 20px;"></div>
+
+                    <div class="">
+                        <h6 data-testid="email">Email Address</h6>
+                        <p data-testid="emailAddress">✉️ goodness.umachi@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="social-links" data-testid="socialLinks">
+                <a href="https://www.linkedin.com/in/goodness-umachi-55719519b" class="social-icon"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Goodness023" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/umachi_goodness?t=D2epCGuB10YfPDZY3Z6RSQ&s=09" class="social-icon"><i
+                        class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <div class="btn">
+                <button data-testid="hire-me"><i class="fa-solid fa-briefcase"></i> &nbsp;Hire Me</button>
+            </div>
+
+        </div>
+        <div class="right-sect">
+            <div class="image">
+                <img src="./]image/Snapchat-1317244852.jpg" alt="Profile Picture" class="profile-img"
+                    data-testid="profilePicture">
+            </div>
+            <div class="label">
+                <p data-testid="label">Code Virtuoso</p>
+            </div>
+            <div class="content">
+                <h5 data-testid="cert">Certifications & Achievements</h5>
+                <p data-testid="cert-list">
+                    2+ years of experience <br>
+                    15+ projects <br>
+                    2 certifications
+                </p>
+                <h5 data-testid="skills">Technical skills</h5>
+                <div class="skill-tags">
+                    <span class="skill-tag html"><i class="fa-solid fa-circle" style="color: red;"></i>
+                        &nbsp;HTML</span><br>
+                    <span class="skill-tag css"><i class="fa-solid fa-circle" style="color: blue;"></i>
+                        &nbsp;CSS</span><br>
+                    <span class="skill-tag js"><i class="fa-solid fa-circle" style="color: yellow;"></i>
+                        &nbsp;JavaScript</span><br>
+                    <span class="skill-tag react"><i class="fa-solid fa-diamond"
+                            style="color: blueviolet;"></i>&nbsp;React.js</span><br>
+                    <span class="skill-tag bootstrap"><i class="fa-solid fa-circle" style="color: darkblue;"></i>
+                        &nbsp;Bootstrap</span><br>
+                </div>
+            </div>
+            <div class="UTC-time">
+                <p id="utc-time" data-testid="currentTimeUTC">UTC Time: Loading...</p>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+</body>
+
+</html>
+
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
